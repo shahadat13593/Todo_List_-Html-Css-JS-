@@ -11,7 +11,8 @@ This project is a simple web-based **Todo App** that allows users to create note
 - **Random Note Colors:** Each new note is assigned a random background color.
 
 ## Preview
-![Capture](https://github.com/user-attachments/assets/f0fbdd73-53b1-43de-9355-7330c6c9812e)
+
+![Capture](https://github.com/user-attachments/assets/3cac3c03-cb10-42f3-a2d3-4cea901d717a)
 
 ## Project Structure
 
@@ -26,3 +27,22 @@ The project consists of the following main files:
 - Users can click the **Add** button to create a new note.
 - Each note has a title input and a button to add tasks. Tasks are displayed below the note title.
 - When the task checkbox is checked, the task description is marked as complete with a line-through.
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   [https://github.com/yourusername/Todo-App.git](https://github.com/shahadat13593/Todo_List_Html-Css-JS.git)
+```
+2. Open index.html in your web browser.
+
+## License
+
+
+
+
+
+
+
+
+
