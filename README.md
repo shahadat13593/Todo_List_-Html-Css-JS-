@@ -4,8 +4,8 @@ This project is a simple web-based **Todo App** that allows users to create note
 
 ## Features
 
-- **Add New Notes:** Users can create new note boxes with a title and tasks.
-- **Add Tasks:** Each note can have multiple tasks added to it.
+- **Add New Notes:** Users can create new note boxes with titles and tasks.
+- **Add Tasks:** Each note can add multiple tasks.
 - **Mark Task as Done:** Tasks can be marked as done with a strikethrough effect.
 - **Delete Notes:** Users can delete a note when it's no longer needed.
 - **Random Note Colors:** Each new note is assigned a random background color.
@@ -32,11 +32,15 @@ The project consists of the following main files:
 
 1. Clone the repository:
    ```bash
-   [https://github.com/yourusername/Todo-App.git](https://github.com/shahadat13593/Todo_List_Html-Css-JS.git)
-```
+   [https://github.com/yourusername/Todo-App.git](https://github.com/shahadat13593/Todo_List_Html-Css-JS.git)```
+
 2. Open index.html in your web browser.
 
 ## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Author
+### Shahadat Hossain https://github.com/shahadat13593
 
 
 
