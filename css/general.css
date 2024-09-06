@@ -1,0 +1,79 @@
+/* *
+*--- 01 TYPOGRAPHY SYSTEM 
+*FONT SIZE SYSTEM (px)
+? --   10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 /48/ 52 / 62 / 74 / 86 / 98
+
+*- Font-Weight:
+Default: 400
+medium: 500
+semi-bold: 600
+bold: 700
+
+*- Line-heightL:
+  Default: 1
+  h1: 1.05
+  h2:1.1
+  p: 1.6
+
+  *-- Letter spacing
+  -0.5px
+  0.75px
+
+
+font-family: 'Inter', sans-serif;
+font-family: 'Montserrat', sans-serif;
+
+*--- 02 Color
+   Primary: #e67e22
+
+*- Tints:
+
+
+
+*- shades:
+
+
+*- Accents
+
+  color: #1c140d;
+  color: #1e2022;
+  color: #1F2124;
+*- Greys:
+
+*--- 05 Shadows 
+ 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+
+*--- 06 Border-radius
+Default: 9px
+MEAL CARD: 11PX
+
+*--- 07 WhiteSpace
+*- SPACING SYSTEM (px)
+? --   2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color:#282c37
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  line-height: 1;
+}
+
+/* ! ------------- Container ----------- */
+
+.container {
+  width: 150rem;
+  margin: 0 auto;
+  height: 100vh;
+}

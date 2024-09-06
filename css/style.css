@@ -1,0 +1,125 @@
+/* ! ------------- Header ----------- */
+.header-box {
+  padding-left: 3.2rem;
+}
+.primary-Heading {
+  font-size: 5.2rem;
+  font-weight: 700;
+  letter-spacing: 0.75px;
+  color: #1e2022;
+  padding-top: 9.6rem;
+  margin-bottom: 4.8rem;
+}
+/* ! ------------- box ----------- */
+.notes-main-box {
+  padding-left: 3.2rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 4rem;
+  row-gap: 6.4rem;
+}
+.box {
+  width: 35rem;
+  height: 35rem;
+  background-color: #a5d8ff;
+  border-radius: 6px;
+  padding: 2rem;
+  position: relative;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.099);
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.box:hover {
+  transform: translateY(-4px);
+}
+input {
+  border: none;
+  outline: none;
+}
+
+.box-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  width: 100%;
+  padding: 2rem;
+  background-color: #a5d8ff;
+  margin-bottom: 1.8rem;
+}
+.task-box {
+  margin-bottom: 3.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+.box-description-box {
+  padding-left: 2rem;
+  display: grid;
+  grid-template-columns: 7fr 93fr;
+  align-content: center;
+  row-gap: 2.4rem;
+  transition: all 0.3s;
+}
+.task-checkmark {
+  justify-self: start;
+  width: 1.8rem;
+  transition: all 0.3s;
+}
+.task-description {
+  transition: all 0.3s;
+  padding: 0.8rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  background-color: #a5d8ff;
+}
+
+/* ! ------------- btn ----------- */
+
+.add--box {
+  border: none;
+  padding: 1.6rem 3.2rem;
+  background-color: #1e2022;
+  color: #fff;
+  font-size: 2rem;
+  border-radius: 8px;
+  margin-bottom: 4.8rem;
+  transition: all 0.3s;
+  cursor: pointer;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.099);
+  font-weight: 700;
+}
+.add--box:hover {
+  background-color: #0f1011;
+  transform: translateY(-5px);
+}
+.add--task {
+  border: none;
+  background: none;
+  font-size: 1.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-left: 2.4rem;
+}
+
+::placeholder {
+  color: #495057;
+}
+.box-title::placeholder {
+  font-size: 2.2rem;
+}
+
+.btn--delete {
+  border: none;
+  font-size: 1.8rem;
+  padding: 1.2rem 2.4rem;
+  background-color: #1e2022;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-top-right-radius: 6px;
+  cursor: pointer;
+  font-weight: 700;
+}
+.btn--delete:hover {
+  background-color: #0f1011;
+}
